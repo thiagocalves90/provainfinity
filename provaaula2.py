@@ -1,6 +1,3 @@
-#Caso ultrapasse 80 km/h, exiba uma mensagem dizendo que o usuário foi multado
-#e o valor da multa, cobrando R$20,00 por cada km que exceder 80 km/h
-
 velocidade = int(input("Informe a velocidade do carro: "))
 multa = (velocidade - 80) * 20
 
