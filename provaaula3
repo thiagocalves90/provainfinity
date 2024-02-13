@@ -1,0 +1,14 @@
+soma = 0
+digitados = 0
+
+while True:
+    n = int(input('Digite um número inteiro: '))
+    if n == 0:
+        break
+    soma = soma + n
+    digitados = digitados + 1
+    media = soma / digitados
+
+print(f'A quantidade de número digitados foi: {digitados}')
+print(f'A soma entre os números digitados foi: {soma}')
+print(f'A média entre os números digitados foi: {media}')
