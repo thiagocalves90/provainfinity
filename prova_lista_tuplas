@@ -1,0 +1,19 @@
+par = []
+impar = []
+
+for i in range(10):
+    numero = int(input('Digite um numero inteiro: '))
+    if numero % 2 ==0:
+        par.append(numero)
+    else:
+        impar.append(numero)
+qtd_par = len(par)
+qtd_impar = len(impar)
+
+soma_par = sum(par)
+soma_impar = sum(impar)
+
+impar = tuple(impar)
+
+print(f'Foram {qtd_par} números pares. A soma entre eles foi: {soma_par}. Os números pares foram: {par}')
+print(f'Foram {qtd_impar} números impares. A soma entre eles foi: {soma_impar}. Os números impares foram: {impar}')
