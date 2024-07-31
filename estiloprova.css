@@ -1,0 +1,31 @@
+header{
+    text-align: center;
+    text-decoration: underline;
+}
+
+body {
+    margin: 10px;
+    background-color: rgb(223, 221, 221);
+}
+
+main {
+    align-items: center;
+}
+
+.team {
+    background: white;
+    border: 2px solid black;
+    border-radius: 40px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.team h3 {
+    margin-top: 0;
+    text-decoration: underline;
+}
+
+.team p {
+    margin: 5px;
+}
